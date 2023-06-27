@@ -1,0 +1,7 @@
+---
+- name: controll the service
+  service:
+    name: apache2
+    state: started
+    enabled: true
+

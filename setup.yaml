@@ -1,0 +1,5 @@
+- name: Starting the webserver configuration
+  hosts: web
+  become: true
+  roles:
+   - apache
